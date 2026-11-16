@@ -102,16 +102,16 @@ end
 --- plugged in, which is not a load failure.
 -- escapi property ids (escapi.h). Values are normalised 0..1 floats.
 source.PROPS = {
-    { id = 15, name = "EXPOSURE" },
-    { id = 10, name = "GAIN" },
-    { id = 1,  name = "BRIGHTNESS" },
-    { id = 2,  name = "CONTRAST" },
-    { id = 4,  name = "SATURATION" },
-    { id = 8,  name = "WHITE BALANCE" },
-    { id = 6,  name = "GAMMA" },
-    { id = 5,  name = "SHARPNESS" },
-    { id = 17, name = "FOCUS" },
-    { id = 14, name = "ZOOM" },
+    { id = 14, name = "EXPOSURE" },
+    { id = 9, name = "GAIN" },
+    { id = 0,  name = "BRIGHTNESS" },
+    { id = 1,  name = "CONTRAST" },
+    { id = 3,  name = "SATURATION" },
+    { id = 7,  name = "WHITE BALANCE" },
+    { id = 5,  name = "GAMMA" },
+    { id = 4,  name = "SHARPNESS" },
+    { id = 16, name = "FOCUS" },
+    { id = 13, name = "ZOOM" },
 }
 
 local propsOK = false
